@@ -20,4 +20,4 @@ puts greeting;
 - **Cross-Platform**: Runs anywhere C/C++ runs.
 
 ## Getting Started
-1. **[Install Choco] (getting-started/installation.md)** - Set up your enviroment.
+1. **[Install Choco](getting-started/installation.md)** - Set up your enviroment.
