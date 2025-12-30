@@ -21,3 +21,4 @@ puts greeting;
 
 ## Getting Started
 1. **[Install Choco](getting-started/installation.md)** - Set up your enviroment.
+2. **[Quick Start Guide](getting-started/quickstart.md)** - Learn the basics

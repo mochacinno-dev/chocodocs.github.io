@@ -2,33 +2,28 @@
 
 This guide will help you install Choco on your system.
 
-## Windows
-**Method 1: Compiling from Source**
-
+### Method 1: Compiling from Sourcse
 ```bash
-git clone https://github.com/mochacinno-dev/ChocoLang.git
-cd Chocolang
+git clone https://github.com/mochacinno-dev/chocolang.git
 ```
-Once you are in the folder, you can do
+
+### Method 2: Direct Download
+
+1. Visit the [GitHub repository](https://github.com/mochacinno-dev/chocolang)
+2. Click the green "Code" button
+3. Select "Download ZIP"
+4. Extract the ZIP file to your desired location
+5. Navigate to the extracted folder
+
+## Running Tourmaline
+### Interactive Mode (REPL)
+Start the CocoaInterpreter:
 ```bash
-./choco <file>.choco
+choco
 ```
-Or add it to PATH.
-
-**Method 2: Download the Release**
-
-Once a stable release is ready, you will be able to download it, and then add it to PATH.
-
-## Linux
-### Arch Linux
-```shell
-sudo pacman -S chocolang
-```
-or
-```shell
-yay -S chocolang-git
-```
-### Ubuntu
-```shell
-sudo apt install chocolang
+NOTE: This only works if choco.exe has been added to PATH
+### Running Script Files
+Execute a Choco script file:
+```bash
+choco <file>.choco
 ```
